@@ -63,7 +63,7 @@ main .contenedor-productos .contenedor-datos-filtros .contenedor-categorias {
   width: 60%;
 }
 main .contenedor-productos .producto .producto-uno {
-  background-image: url(recursos/catalogo-liquidacion/liq01.png);
+  background-image: url(/recursos/catalogo-liquidacion/liq01.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
