@@ -1,0 +1,298 @@
+header{
+    .color-primario{
+        
+        background-color:nth($list-colores-olinda, 1);
+        border-bottom: 2px nth($list-colores-olinda , 2 ) solid;
+        .container-fluid{
+            .navbar-brand{
+
+                img{
+                    @extend %medidas-logo-principal;
+                }
+    
+            }
+            .redes-sociales{
+                display: flex;
+                a{
+                    @include display-flex-row-center;
+                    margin-top: 6px;
+                    opacity: 75%;
+                }
+                img{
+                    @extend %medidas-redes-sociales;
+                }
+            }
+            
+        }
+        
+    }
+    .posicion-menu{
+        display: flex;
+        justify-content: right;
+    }
+}
+
+main{
+    // producto
+    .titulo-producto{
+        @extend %titulos-globalles;
+        h2{
+            @include titulo-global-p(nth($list-colores-decoracion, 3));
+        }
+    }
+.contenedor-productos{
+    width: 90%;
+    @include posicion-relativa(20px,auto,auto,5%);
+    gap: 30px;
+    .contenedor-datos-filtros{
+        .contenedor-categorias{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 60%;
+        }
+    }
+    .producto{
+
+        .producto-uno{
+            background-image: url(/recursos/catalogo-liquidacion/liq01.png);
+            @include ajuste-imagen;
+        }
+        .producto-dos{
+            background-image: url(/recursos/catalogo-liquidacion/liq02.png);
+            @include ajuste-imagen;
+        }
+        .producto-tres{
+            background-image: url(/recursos/catalogo-liquidacion/liq03.png);
+            @include ajuste-imagen;
+        }
+        .producto-cuatro{
+            background-image: url(/recursos/catalogo-liquidacion/liq04.png);
+            @include ajuste-imagen;
+        }
+        .producto-cinco{
+            background-image: url(/recursos/catalogo-liquidacion/liq05.png);
+            @include ajuste-imagen;
+        }
+        .producto-seis{
+            background-image: url(/recursos/catalogo-liquidacion/liq06.png);
+            @include ajuste-imagen;
+        }
+        .producto-siete{
+            background-image: url(/recursos/catalogo-liquidacion/liq07.png);
+            @include ajuste-imagen;
+        }
+        .producto-ocho{
+            background-image: url(/recursos/catalogo-liquidacion/liq08.png);
+            @include ajuste-imagen;
+        }
+        .producto-nueve{
+            background-image: url(/recursos/catalogo-liquidacion/liq09.png);
+            @include ajuste-imagen;
+        }
+        .producto-diez{
+            background-image: url(/recursos/catalogo-liquidacion/liq10.png);
+            @include ajuste-imagen;
+        }
+        .producto-once{
+            background-image: url(/recursos/catalogo-liquidacion/liq11.png);
+            @include ajuste-imagen;
+        }
+        .producto-doce{
+            background-image: url(/recursos/catalogo-liquidacion/liq12.png);
+            @include ajuste-imagen;
+        }
+        .producto-trece{
+            background-image: url(/recursos/catalogo-liquidacion/liq13.png);
+            @include ajuste-imagen;
+        }
+        .producto-catorce{
+            background-image: url(/recursos/catalogo-liquidacion/liq14.png);
+            @include ajuste-imagen;
+        }
+        .producto-quince{
+            background-image: url(/recursos/catalogo-liquidacion/liq15.png);
+            @include ajuste-imagen;
+        }
+        .producto-dieciseis{
+            background-image: url(/recursos/catalogo-liquidacion/liq16.png);
+            @include ajuste-imagen;
+        }
+        .producto-diecisiete{
+            background-image: url(/recursos/catalogo-liquidacion/liq17.png);
+            @include ajuste-imagen;
+        }
+        .producto-dieciocho{
+            background-image: url(/recursos/catalogo-liquidacion/liq18.png);
+            @include ajuste-imagen;
+        }
+        .producto-diecinueve{
+            background-image: url(/recursos/catalogo-liquidacion/liq19.png);
+            @include ajuste-imagen;
+        }
+        .producto-veinte{
+            background-image: url(/recursos/catalogo-liquidacion/liq20.png);
+            @include ajuste-imagen;
+        }
+        .img-producto{
+            width: 100%;
+            height: 90vw;
+            .codigo{
+                @extend %display-flex-center-center;
+                background-color: nth($list-colores-decoracion ,2);
+                color: nth($list-colores-decoracion ,1);
+                height: 30px;
+                width: 60px;
+                position: relative;
+                top: 15px;
+            }
+            .contenedor-botones-accion{
+                @extend %display-flex-center-center;
+                opacity: 85%;
+                background-color: nth($list-colores-olinda ,2);
+                padding-top:5px;
+                padding-bottom:5px;
+                position: relative;
+                top: 63vw;
+            
+                .contenedor-tallas-tatales{
+                    width: 90%;
+                    height: 30px;
+                    font-size: 150%;
+                    font-family: Arial;
+                    font-weight: bold;
+                    .contenedor-tallas{
+                        display: flex;
+                        justify-content: space-around;
+                        column-gap: 3px;
+                        .agotado{
+                            text-decoration: line-through;
+                            opacity: 10%;
+
+                        }
+
+                    
+                    }
+                }
+
+                
+            }
+        }
+        .text-producto{
+            scale: 95%;
+            h5{
+                margin-top: 5px;
+                text-align: center;
+                font-weight: 600;
+                font-size: 30px;
+            }
+            .texto-producto{
+                P{
+                    text-align: center;
+                }
+                
+            }
+            .estrella{
+                display: flex;
+                justify-content: center;
+                column-gap: 3px;
+                .estrella-encendida{
+                    font-size:large;
+                    color: nth($list-colores-decoracion ,3);
+                }
+            
+            }
+            
+        }
+        .precio-producto{
+            display: flex;
+            justify-content: center;
+            column-gap: 10px;
+            font-size: large;
+            .antes{
+                opacity: 80%;
+                font-weight: 500;
+                text-decoration: line-through;
+            }
+            .ahora{
+                font-weight:800;
+                color: red;
+            }
+        }
+    }
+}
+
+.paginas-listado{
+    @include relativa-izquierda(100%);
+    
+}
+
+@media screen and (min-width: 1000px){
+    /*Pagina Producto*/
+    .titulo-producto{
+        h2{
+            font-size: 1.5vw;
+        }
+    }
+    .contenedor-productos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        scale: 97%;
+        .producto{
+            .img-producto{
+                width: 100%;
+                height: 30vw;
+                .contenedor-botones-accion{
+                    top: 22vw;
+                
+                }
+            }
+           
+        }
+        
+    }
+
+
+}
+    
+    
+
+}
+
+
+
+
+footer{
+    scale: 85%;
+    border-top: 2px nth($list-colores-olinda , 2 ) solid;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 70% 30%;
+    .logo-cc{
+        @include display-flex-row-center;
+        padding-top: 3px;
+        img{
+            @extend %medidas-logo-principal;
+        }
+        h6{
+            padding-top: 15px;
+            padding-left: 3%;
+            font-size: medium;
+            color: nth($list-colores-decoracion , 3 );
+        }
+    }
+    .posicion-menu{
+        display: flex;
+        justify-content: right;
+    }
+    .redes-sociales{
+        display: flex;
+        img{
+            @extend %medidas-redes-sociales;
+        }
+    }
+}
+
+
+
+

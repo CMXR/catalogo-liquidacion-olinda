@@ -1,0 +1,52 @@
+// mixin con parametros
+
+
+
+@mixin posicion-relativa ($ariba, $abajo, $derecha, $izquierda) {
+    position: relative;
+    top: $ariba;
+    bottom: $abajo;
+    right: $derecha; 
+    left:$izquierda ;
+ 
+     
+ }
+ 
+ @mixin relativa-izquierda($izquierda) {
+     position: relative;
+     left: $izquierda;
+     
+ }
+ 
+ @mixin titulo-global-p($color) {
+     color: $color;
+     font-size: 5vw;
+     padding: 7px;
+ }
+ 
+ // mixin sin parametros
+ 
+ 
+ 
+ @mixin display-flex-row-center {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+ 
+ @mixin display-flex-center-center{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ @mixin grid-1-1-column {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
+ @mixin ajuste-imagen {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }

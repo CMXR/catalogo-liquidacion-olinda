@@ -1,3 +1,309 @@
+/* linea de comentario css y scss*/
+footer .logo-cc img, header .color-primario .container-fluid .navbar-brand img {
+  margin-left: 5px;
+  width: 60px;
+}
 
+footer .redes-sociales img, header .color-primario .container-fluid .redes-sociales img {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+}
+
+main .contenedor-productos .producto .img-producto .contenedor-botones-accion, main .contenedor-productos .producto .img-producto .codigo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .titulo-producto {
+  background-color: #e2d0c3;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+header .color-primario {
+  background-color: #fae7cf;
+  border-bottom: 2px #d0b28e solid;
+}
+header .color-primario .container-fluid .redes-sociales {
+  display: flex;
+}
+header .color-primario .container-fluid .redes-sociales a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 6px;
+  opacity: 75%;
+}
+header .posicion-menu {
+  display: flex;
+  justify-content: right;
+}
+
+main .titulo-producto h2 {
+  color: rgb(66, 66, 66);
+  font-size: 5vw;
+  padding: 7px;
+}
+main .contenedor-productos {
+  width: 90%;
+  position: relative;
+  top: 20px;
+  bottom: auto;
+  right: auto;
+  left: 5%;
+  gap: 30px;
+}
+main .contenedor-productos .contenedor-datos-filtros .contenedor-categorias {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+main .contenedor-productos .producto .producto-uno {
+  background-image: url(/recursos/catalogo-liquidacion/liq01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-dos {
+  background-image: url(/recursos/catalogo-liquidacion/liq02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-tres {
+  background-image: url(/recursos/catalogo-liquidacion/liq03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-cuatro {
+  background-image: url(/recursos/catalogo-liquidacion/liq04.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-cinco {
+  background-image: url(/recursos/catalogo-liquidacion/liq05.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-seis {
+  background-image: url(/recursos/catalogo-liquidacion/liq06.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-siete {
+  background-image: url(/recursos/catalogo-liquidacion/liq07.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-ocho {
+  background-image: url(/recursos/catalogo-liquidacion/liq08.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-nueve {
+  background-image: url(/recursos/catalogo-liquidacion/liq09.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-diez {
+  background-image: url(/recursos/catalogo-liquidacion/liq10.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-once {
+  background-image: url(/recursos/catalogo-liquidacion/liq11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-doce {
+  background-image: url(/recursos/catalogo-liquidacion/liq12.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-trece {
+  background-image: url(/recursos/catalogo-liquidacion/liq13.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-catorce {
+  background-image: url(/recursos/catalogo-liquidacion/liq14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-quince {
+  background-image: url(/recursos/catalogo-liquidacion/liq15.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-dieciseis {
+  background-image: url(/recursos/catalogo-liquidacion/liq16.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-diecisiete {
+  background-image: url(/recursos/catalogo-liquidacion/liq17.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-dieciocho {
+  background-image: url(/recursos/catalogo-liquidacion/liq18.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-diecinueve {
+  background-image: url(/recursos/catalogo-liquidacion/liq19.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-veinte {
+  background-image: url(/recursos/catalogo-liquidacion/liq20.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .img-producto {
+  width: 100%;
+  height: 90vw;
+}
+main .contenedor-productos .producto .img-producto .codigo {
+  background-color: red;
+  color: white;
+  height: 30px;
+  width: 60px;
+  position: relative;
+  top: 15px;
+}
+main .contenedor-productos .producto .img-producto .contenedor-botones-accion {
+  opacity: 85%;
+  background-color: #d0b28e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  top: 63vw;
+}
+main .contenedor-productos .producto .img-producto .contenedor-botones-accion .contenedor-tallas-tatales {
+  width: 90%;
+  height: 30px;
+  font-size: 150%;
+  font-family: Arial;
+  font-weight: bold;
+}
+main .contenedor-productos .producto .img-producto .contenedor-botones-accion .contenedor-tallas-tatales .contenedor-tallas {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 3px;
+}
+main .contenedor-productos .producto .img-producto .contenedor-botones-accion .contenedor-tallas-tatales .contenedor-tallas .agotado {
+  text-decoration: line-through;
+  opacity: 10%;
+}
+main .contenedor-productos .producto .text-producto {
+  scale: 95%;
+}
+main .contenedor-productos .producto .text-producto h5 {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+main .contenedor-productos .producto .text-producto .texto-producto P {
+  text-align: center;
+}
+main .contenedor-productos .producto .text-producto .estrella {
+  display: flex;
+  justify-content: center;
+  column-gap: 3px;
+}
+main .contenedor-productos .producto .text-producto .estrella .estrella-encendida {
+  font-size: large;
+  color: rgb(66, 66, 66);
+}
+main .contenedor-productos .producto .precio-producto {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  font-size: large;
+}
+main .contenedor-productos .producto .precio-producto .antes {
+  opacity: 80%;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+main .contenedor-productos .producto .precio-producto .ahora {
+  font-weight: 800;
+  color: red;
+}
+main .paginas-listado {
+  position: relative;
+  left: 100%;
+}
+@media screen and (min-width: 1000px) {
+  main {
+    /*Pagina Producto*/
+  }
+  main .titulo-producto h2 {
+    font-size: 1.5vw;
+  }
+  main .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    scale: 97%;
+  }
+  main .contenedor-productos .producto .img-producto {
+    width: 100%;
+    height: 30vw;
+  }
+  main .contenedor-productos .producto .img-producto .contenedor-botones-accion {
+    top: 22vw;
+  }
+}
+
+footer {
+  scale: 85%;
+  border-top: 2px #d0b28e solid;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 70% 30%;
+}
+footer .logo-cc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 3px;
+}
+footer .logo-cc h6 {
+  padding-top: 15px;
+  padding-left: 3%;
+  font-size: medium;
+  color: rgb(66, 66, 66);
+}
+footer .posicion-menu {
+  display: flex;
+  justify-content: right;
+}
+footer .redes-sociales {
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */
