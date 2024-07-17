@@ -33,6 +33,11 @@ header{
 }
 
 main{
+
+    // producto agotado 
+    .p-agotado{
+        opacity: 40%;
+    }
     // producto
     .titulo-producto{
         @extend %titulos-globalles;
@@ -84,6 +89,10 @@ main{
         }
         .producto-ocho{
             background-image: url(../recursos/catalogo-liquidacion/liq08.png);
+            @include ajuste-imagen;
+        }
+        .producto-nueve{
+            background-image: url(../recursos/catalogo-liquidacion/liq09.png);
             @include ajuste-imagen;
         }
 

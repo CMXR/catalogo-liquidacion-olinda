@@ -42,6 +42,9 @@ header .posicion-menu {
   justify-content: right;
 }
 
+main .p-agotado {
+  opacity: 40%;
+}
 main .titulo-producto h2 {
   color: rgb(66, 66, 66);
   font-size: 5vw;
@@ -106,6 +109,12 @@ main .contenedor-productos .producto .producto-siete {
 }
 main .contenedor-productos .producto .producto-ocho {
   background-image: url(../recursos/catalogo-liquidacion/liq08.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .contenedor-productos .producto .producto-nueve {
+  background-image: url(../recursos/catalogo-liquidacion/liq09.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
