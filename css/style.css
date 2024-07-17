@@ -110,12 +110,6 @@ main .contenedor-productos .producto .producto-ocho {
   background-repeat: no-repeat;
   background-size: cover;
 }
-main .contenedor-productos .producto .producto-nueve {
-  background-image: url(../recursos/catalogo-liquidacion/liq09.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 main .contenedor-productos .producto .producto-diez {
   background-image: url(../recursos/catalogo-liquidacion/liq10.png);
   background-position: center;

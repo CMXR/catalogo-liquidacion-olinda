@@ -86,10 +86,7 @@ main{
             background-image: url(../recursos/catalogo-liquidacion/liq08.png);
             @include ajuste-imagen;
         }
-        .producto-nueve{
-            background-image: url(../recursos/catalogo-liquidacion/liq09.png);
-            @include ajuste-imagen;
-        }
+
         .producto-diez{
             background-image: url(../recursos/catalogo-liquidacion/liq10.png);
             @include ajuste-imagen;
