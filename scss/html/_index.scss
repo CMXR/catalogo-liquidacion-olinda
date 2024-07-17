@@ -55,7 +55,7 @@ main{
     .producto{
 
         .producto-uno{
-            background-image: url(../../recursos/catalogo-liquidacion/liq01.png);
+            background-image: url(../recursos/catalogo-liquidacion/liq01.png);
             @include ajuste-imagen;
         }
         .producto-dos{
