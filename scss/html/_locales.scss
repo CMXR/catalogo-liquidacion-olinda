@@ -1,0 +1,131 @@
+
+.titulo-local{
+    @extend %titulos-globalles;
+    h2{
+        @include titulo-global-p(nth($list-colores-decoracion, 1));
+    }
+}
+.contenedor-locales{
+    .local{
+        text-align: center;
+        scale: 95%;
+        iframe{
+            width: 100%;
+        }
+        img{
+            width: 100%
+        }
+    }
+    .info{
+        @extend %display-flex-center-center;
+        border: 3px  nth($list-colores-olinda ,1) solid;
+        scale: 97%;
+        img{
+            width: 5vw;
+            height: 100%;
+            opacity: 80%;
+        
+        }
+        p{
+            font-size: 3vw;
+            margin-top: 15px;
+            margin-left:10px ;
+         
+        
+        }
+    }
+}
+.contenedor-contactanos{
+
+    border: 10px  nth($list-colores-olinda ,1) solid;
+    padding: 10px;
+    .contacatanos{
+        margin: 30px;
+        width: 60%;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        align-items: center;
+        @include relativa-izquierda(10%);
+        img{
+            width: 35%;
+            opacity: 60%;
+            @include relativa-izquierda(70%);
+        }
+        p{
+            margin: 20px;
+            font-weight: 500;
+        }
+    }
+    .for-contactanos{
+        @include grid-1-1-column;
+        width: 80%;
+        row-gap: 20px;
+        @include relativa-izquierda(9%);
+        input, textarea{
+            width: 100%;
+        }
+        .titulo-for{
+            grid-column: span 2;
+            text-align: center;
+            background-color: nth($list-colores-olinda ,1);
+            padding-top: 5px;
+        }
+        .for-datos{
+            grid-column: span 2;
+            @include grid-1-1-column;
+            column-gap: 10px;
+            height: 20px;
+           
+        }
+        .for-telefono{
+            grid-column: span 2;
+        }
+        .for-comentario{
+            grid-column: span 2;
+        }
+        .boton-contactanos{
+            @extend %boton-contacto;
+            p{
+                @extend %boton-contacto-p;
+            
+            }
+        }
+    
+    }
+
+}
+@media screen and (min-width: 768px){
+    .titulo-local{
+        h2{
+            font-size: 1.5vw;
+        }
+    }
+    .contenedor-contactanos{
+        @include grid-1-1-column;
+        border: 20px  nth($list-colores-olinda ,1) solid;
+        padding: 20px;
+    
+    }
+}
+
+// Ordenador
+@media screen and (min-width: 1280px){
+
+
+    .contenedor-locales{
+        @include grid-1-1-column;
+        scale: 97%;
+        .info{
+            img{
+                width: 1.5vw;
+            }
+            p{
+                font-size: 1.4vw;
+            }
+        }
+    }
+
+
+
+
+}
